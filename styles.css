@@ -51,7 +51,7 @@ body {
 /* Hero Section */
 #hero {
     background: linear-gradient(rgba(44, 85, 48, 0.8), rgba(44, 85, 48, 0.8)),
-                url('Images/hero-bg.jpg') center/cover;
+                url('Images/Background.png') center/cover;
     height: 80vh;
     display: flex;
     align-items: center;
