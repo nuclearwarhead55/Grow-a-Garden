@@ -7,75 +7,79 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
+<body class="page-seeds">
     <div class="container">
-        <div class="content-box">
-            <h2><i class="fas fa-seedling"></i> Seeds & Crops</h2>
-            <p>🌱 In Grow a Garden, crops are the heart of your farming journey.</p>
-            <p>Whether you're planting simple 🥕 carrots or rare 🌺 exotic plants, each crop plays a key role in expanding your garden, earning sheckles 💰, and leveling up your farm 📈.</p>
-            <p>This page covers everything you need to know about the different types of crops available in the game — how to plant them, how long they take to grow ⏳, what they're worth, and tips for getting the most out of your harvest 🌾.</p>
-            <p>You can get crops from the <strong>Sam's Shop</strong> or a <strong>Seed Pack</strong>.</p>
-            <p>You can have a max of <strong>800 crops</strong> in your garden.</p>
+        <div class="content-box seeds-layout">
+            
+            <div class="seeds-left-panel">
+                <h2><i class="fas fa-seedling"></i> Seeds & Crops</h2>
+                <p>🌱 In Grow a Garden, crops are the heart of your farming journey.</p>
+                <p>Whether you're planting simple 🥕 carrots or rare 🌺 exotic plants, each crop plays a key role in expanding your garden, earning sheckles 💰, and leveling up your farm 📈.</p>
+                <p>This page covers everything you need to know about the different types of crops available in the game — how to plant them, how long they take to grow ⏳, what they're worth, and tips for getting the most out of your harvest 🌾.</p>
+                <p>You can get crops from the <strong>Sam's Shop</strong> or a <strong>Seed Pack</strong>.</p>
+                <p>You can have a max of <strong>800 crops</strong> in your garden.</p>
 
-            <p>Crops tiers list: [Future Link to Tiers]</p>
-            <hr>
-            <h3>Crops Info Table</h3>
-            <div class="table-container">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Crop Name</th>
-                            <th>Buy Price (₵)</th>
-                            <th>Sell Value (₵)</th>
-                            <th>Multi-Use</th>
-                            <th>Tier</th>
-                            <th>Rarity %</th>
-                            <th>Amount in Shop</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr><td>Carrot</td><td>10</td><td>20</td><td>❌</td><td>Common</td><td>100%</td><td>5-25</td></tr>
-                        <tr><td>Strawberry</td><td>50</td><td>15</td><td>✅</td><td>Common</td><td>100%</td><td>1-5</td></tr>
-                        <tr><td>Blueberry</td><td>400</td><td>20</td><td>✅</td><td>Uncommon</td><td>100%</td><td>2-5</td></tr>
-                        <tr><td>Orange Tulip</td><td>600</td><td>767</td><td>❌</td><td>Uncommon</td><td>15%</td><td>5-25</td></tr>
-                        <tr><td>Tomato</td><td>800</td><td>30</td><td>✅</td><td>Rare</td><td>100%</td><td>1-3</td></tr>
-                        <tr><td>Corn</td><td>1,300</td><td>40</td><td>✅</td><td>Rare</td><td>30%</td><td>1-3</td></tr>
-                        <tr><td>Daffodil</td><td>1,000</td><td>~1,000</td><td>❌</td><td>Rare</td><td>~7%</td><td>?</td></tr>
-                        <tr><td>Watermelon</td><td>2,500</td><td>3,000</td><td>❌</td><td>Legendary</td><td>12%</td><td>1-6</td></tr>
-                        <tr><td>Pumpkin</td><td>3,000</td><td>3,500</td><td>❌</td><td>Legendary</td><td>8%</td><td>1-4</td></tr>
-                        <tr><td>Apple</td><td>3,250</td><td>275</td><td>✅</td><td>Legendary</td><td>10%</td><td>1-3</td></tr>
-                        <tr><td>Bamboo</td><td>4,000</td><td>4,000</td><td>❌</td><td>Legendary</td><td>30%</td><td>10-20</td></tr>
-                        <tr><td>Coconut</td><td>6,000</td><td>400</td><td>✅</td><td>Mythical</td><td>0.35%</td><td>1-2</td></tr>
-                        <tr><td>Cactus</td><td>15,000</td><td>3,400</td><td>✅</td><td>Mythical</td><td>0.25%</td><td>2-5</td></tr>
-                        <tr><td>Dragon Fruit</td><td>50,000</td><td>4,750</td><td>✅</td><td>Mythical</td><td>0.05%</td><td>1-2</td></tr>
-                        <tr><td>Mango</td><td>100,000</td><td>6,500</td><td>✅</td><td>Mythical</td><td>0.005%</td><td>1-2</td></tr>
-                        <tr><td>Grape</td><td>850,000</td><td>10,000</td><td>✅</td><td>Divine</td><td>???%</td><td>1</td></tr>
-                        <tr><td>Pineapple</td><td>N/A</td><td>350</td><td>✅</td><td>Exclusive</td><td>SP 5%</td><td>0</td></tr>
-                        <tr><td>Peach</td><td>N/A</td><td>250</td><td>✅</td><td>Exclusive</td><td>SP 5%</td><td>0</td></tr>
-                        <tr><td>Raspberry</td><td>N/A</td><td>60</td><td>✅</td><td>Exclusive</td><td>SP 5%</td><td>0</td></tr>
-                        <tr><td>Pear</td><td>N/A</td><td>80</td><td>✅</td><td>Exclusive</td><td>SP 5%</td><td>0</td></tr>
-                        <tr><td>Chocolate Carrot</td><td>10,000</td><td>16,500</td><td>❌</td><td>Common Limited</td><td>ES 100%</td><td>1-20</td></tr>
-                        <tr><td>Red Lollipop</td><td>45,000</td><td>70,000</td><td>❌</td><td>Uncommon Limited</td><td>ES 50%</td><td>24</td></tr>
-                        <tr><td>Candy Sunflower</td><td>75,000</td><td>145,000</td><td>❌</td><td>Rare Limited</td><td>ES NA%</td><td>N/A</td></tr>
-                        <tr><td>Easter Egg</td><td>500,000</td><td>3,000+</td><td>✅</td><td>Legendary Limited</td><td>ES NA%</td><td>5</td></tr>
-                        <tr><td>Candy Blossom</td><td>10,000,000</td><td>100,000+</td><td>✅</td><td>Divine Limited</td><td>ES NA%</td><td>1</td></tr>
-                        <tr><td>Papaya</td><td>N/A</td><td>1,000+</td><td>✅</td><td>Exclusive</td><td>ESP 40%</td><td>0</td></tr>
-                        <tr><td>Banana</td><td>N/A</td><td>3,000+</td><td>✅</td><td>Exclusive</td><td>ESP 38%</td><td>0</td></tr>
-                        <tr><td>Passionfruit</td><td>N/A</td><td>???</td><td>✅</td><td>Exclusive</td><td>ESP 20%</td><td>0</td></tr>
-                        <tr><td>Soul Fruit</td><td>N/A</td><td>???</td><td>?</td><td>Exclusive</td><td>ESP 1.5%</td><td>0</td></tr>
-                        <tr><td>Cursed Fruit</td><td>N/A</td><td>???</td><td>?</td><td>Exclusive</td><td>ESP 0.5%</td><td>0</td></tr>
-                    </tbody>
-                </table>
+                <p>Crops tiers list: [Future Link to Tiers]</p>
+                <hr>
+                <h3>Crops Info Table</h3>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Crop Name</th>
+                                <th>Buy Price (₵)</th>
+                                <th>Sell Value (₵)</th>
+                                <th>Multi-Use</th>
+                                <th>Tier</th>
+                                <th>Rarity %</th>
+                                <th>Amount in Shop</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Carrot</td><td>10</td><td>20</td><td>❌</td><td>Common</td><td>100%</td><td>5-25</td></tr>
+                            <tr><td>Strawberry</td><td>50</td><td>15</td><td>✅</td><td>Common</td><td>100%</td><td>1-5</td></tr>
+                            <tr><td>Blueberry</td><td>400</td><td>20</td><td>✅</td><td>Uncommon</td><td>100%</td><td>2-5</td></tr>
+                            <tr><td>Orange Tulip</td><td>600</td><td>767</td><td>❌</td><td>Uncommon</td><td>15%</td><td>5-25</td></tr>
+                            <tr><td>Tomato</td><td>800</td><td>30</td><td>✅</td><td>Rare</td><td>100%</td><td>1-3</td></tr>
+                            <tr><td>Corn</td><td>1,300</td><td>40</td><td>✅</td><td>Rare</td><td>30%</td><td>1-3</td></tr>
+                            <tr><td>Daffodil</td><td>1,000</td><td>~1,000</td><td>❌</td><td>Rare</td><td>~7%</td><td>?</td></tr>
+                            <tr><td>Watermelon</td><td>2,500</td><td>3,000</td><td>❌</td><td>Legendary</td><td>12%</td><td>1-6</td></tr>
+                            <tr><td>Pumpkin</td><td>3,000</td><td>3,500</td><td>❌</td><td>Legendary</td><td>8%</td><td>1-4</td></tr>
+                            <tr><td>Apple</td><td>3,250</td><td>275</td><td>✅</td><td>Legendary</td><td>10%</td><td>1-3</td></tr>
+                            <tr><td>Bamboo</td><td>4,000</td><td>4,000</td><td>❌</td><td>Legendary</td><td>30%</td><td>10-20</td></tr>
+                            <tr><td>Coconut</td><td>6,000</td><td>400</td><td>✅</td><td>Mythical</td><td>0.35%</td><td>1-2</td></tr>
+                            <tr><td>Cactus</td><td>15,000</td><td>3,400</td><td>✅</td><td>Mythical</td><td>0.25%</td><td>2-5</td></tr>
+                            <tr><td>Dragon Fruit</td><td>50,000</td><td>4,750</td><td>✅</td><td>Mythical</td><td>0.05%</td><td>1-2</td></tr>
+                            <tr><td>Mango</td><td>100,000</td><td>6,500</td><td>✅</td><td>Mythical</td><td>0.005%</td><td>1-2</td></tr>
+                            <tr><td>Grape</td><td>850,000</td><td>10,000</td><td>✅</td><td>Divine</td><td>???%</td><td>1</td></tr>
+                            <tr><td>Pineapple</td><td>N/A</td><td>350</td><td>✅</td><td>Exclusive</td><td>SP 5%</td><td>0</td></tr>
+                            <tr><td>Peach</td><td>N/A</td><td>250</td><td>✅</td><td>Exclusive</td><td>SP 5%</td><td>0</td></tr>
+                            <tr><td>Raspberry</td><td>N/A</td><td>60</td><td>✅</td><td>Exclusive</td><td>SP 5%</td><td>0</td></tr>
+                            <tr><td>Pear</td><td>N/A</td><td>80</td><td>✅</td><td>Exclusive</td><td>SP 5%</td><td>0</td></tr>
+                            <tr><td>Chocolate Carrot</td><td>10,000</td><td>16,500</td><td>❌</td><td>Common Limited</td><td>ES 100%</td><td>1-20</td></tr>
+                            <tr><td>Red Lollipop</td><td>45,000</td><td>70,000</td><td>❌</td><td>Uncommon Limited</td><td>ES 50%</td><td>24</td></tr>
+                            <tr><td>Candy Sunflower</td><td>75,000</td><td>145,000</td><td>❌</td><td>Rare Limited</td><td>ES NA%</td><td>N/A</td></tr>
+                            <tr><td>Easter Egg</td><td>500,000</td><td>3,000+</td><td>✅</td><td>Legendary Limited</td><td>ES NA%</td><td>5</td></tr>
+                            <tr><td>Candy Blossom</td><td>10,000,000</td><td>100,000+</td><td>✅</td><td>Divine Limited</td><td>ES NA%</td><td>1</td></tr>
+                            <tr><td>Papaya</td><td>N/A</td><td>1,000+</td><td>✅</td><td>Exclusive</td><td>ESP 40%</td><td>0</td></tr>
+                            <tr><td>Banana</td><td>N/A</td><td>3,000+</td><td>✅</td><td>Exclusive</td><td>ESP 38%</td><td>0</td></tr>
+                            <tr><td>Passionfruit</td><td>N/A</td><td>???</td><td>✅</td><td>Exclusive</td><td>ESP 20%</td><td>0</td></tr>
+                            <tr><td>Soul Fruit</td><td>N/A</td><td>???</td><td>?</td><td>Exclusive</td><td>ESP 1.5%</td><td>0</td></tr>
+                            <tr><td>Cursed Fruit</td><td>N/A</td><td>???</td><td>?</td><td>Exclusive</td><td>ESP 0.5%</td><td>0</td></tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
-            <hr>
-            <h3>Special Seeds & Conditions</h3>
-            <div class="button-row special-links">
-                <a href="super_seed.html" class="nav-button special-button">Super Seed Info</a>
-                <a href="overgrown.html" class="nav-button special-button">Overgrown Crops Info</a>
+            <div class="seeds-right-panel">
+                <div id="seed-info-display" class="seed-info-box" style="display: none;">
+                    <!-- Seed details will be populated here -->
+                    <h3>Select a Seed</h3>
+                    <p>Details will appear here.</p>
+                </div>
             </div>
-
-            <a href="index.html" class="nav-button back-button">Back to Main Menu</a> 
+            
+            <a href="index.html" class="nav-button back-button main-back-button">Back to Main Menu</a> 
         </div>
     </div>
     <script src="script.js"></script>

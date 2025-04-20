@@ -24,13 +24,15 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    /* background-image is now set by script.js */
+    background-color: #1a1a1a; /* Default dark background */
+    /* background-image is now set by script.js ONLY on home page */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: auto; /* Add scroll for content pages */
 }
 
 .button-grid {
@@ -175,4 +177,113 @@ tbody tr:hover {
 
 .special-button:hover {
     background-color: #ff8c00; /* Orange background on hover */
+}
+
+/* Seeds Page Layout */
+.seeds-layout {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start; /* Align items to the top */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    max-width: 1200px; /* Wider max-width for this layout */
+}
+
+.seeds-left-panel {
+    flex: 1; /* Takes up available space */
+    min-width: 300px; /* Minimum width before wrapping */
+}
+
+.seeds-right-panel {
+    flex: 1.5; /* Takes up more space */
+    min-width: 400px; /* Minimum width */
+}
+
+/* Seed List */
+.seed-list-scrollable {
+    max-height: 400px; /* Limit height and make scrollable */
+    overflow-y: auto;
+    border: 1px solid #444;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+}
+
+.seed-list-item {
+    display: block; /* Make items block level */
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.25rem;
+    background-color: rgba(0, 102, 204, 0.5); /* Button-like style */
+    color: #fff;
+    border: 1px solid #0066cc;
+    border-radius: 4px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.seed-list-item:hover {
+    background-color: #0066cc;
+}
+
+/* Seed Info Box */
+.seed-info-box {
+    background-color: rgba(0, 0, 0, 0.85); /* More opaque background */
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #555;
+}
+
+.seed-info-box h3 {
+    color: #00aaff;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.5rem;
+}
+
+.seed-info-box ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+}
+
+.seed-info-box li {
+    margin-bottom: 0.6rem;
+}
+
+.seed-info-box li strong {
+    color: #aaa; /* Greyish color for labels */
+    display: inline-block;
+    width: 120px; /* Align labels */
+}
+
+/* Sort Controls */
+.sort-controls {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap; /* Allow buttons to wrap */
+}
+
+.sort-controls button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.sort-controls button:hover {
+    background-color: #555;
+}
+
+/* Main Back Button on Seeds Page */
+.main-back-button {
+    /* Position it differently if needed, maybe at the very bottom */
+    margin-top: 2rem; 
+    width: 100%; /* Make it full width within its container */
+    text-align: center;
 } 
